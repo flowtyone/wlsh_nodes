@@ -1160,7 +1160,7 @@ class WLSH_Image_Save_With_Prompt:
                     "required": {
                         "images": ("IMAGE", ),
                         "filename": ("STRING", {"default": f'%time_%seed', "multiline": False}),
-                        "path": ("STRING", {"default": '', "multiline": False}),
+                        # "path": ("STRING", {"default": '', "multiline": False}),
                         "extension": (['png', 'jpeg', 'tiff', 'gif'], ),
                         "quality": ("INT", {"default": 100, "min": 1, "max": 100, "step": 1}),
                     },
@@ -1261,7 +1261,7 @@ class WLSH_Image_Save_With_Prompt_Info:
                     "required": {
                         "images": ("IMAGE", ),
                         "filename": ("STRING", {"default": f'%time_%seed', "multiline": False}),
-                        "path": ("STRING", {"default": '', "multiline": False}),
+                        #"path": ("STRING", {"default": '', "multiline": False}),
                         "extension": (['png', 'jpeg', 'tiff', 'gif'], ),
                         "quality": ("INT", {"default": 100, "min": 1, "max": 100, "step": 1}),
                     },
@@ -1363,7 +1363,7 @@ class WLSH_Image_Save_With_File_Info:
                     "required": {
                         "images": ("IMAGE", ),                   
                         "filename": ("STRING", {"default": f'%time_%seed', "multiline": False}),
-                        "path": ("STRING", {"default": '', "multiline": False}),
+                        # "path": ("STRING", {"default": '', "multiline": False}),
                         "extension": (['png', 'jpeg', 'tiff', 'gif'], ),
                         "quality": ("INT", {"default": 100, "min": 1, "max": 100, "step": 1}),
                     },
@@ -1477,7 +1477,7 @@ class WLSH_Image_Save_With_File:
                     "required": {
                         "images": ("IMAGE", ),                   
                         "filename": ("STRING", {"default": f'%time_%seed', "multiline": False}),
-                        "path": ("STRING", {"default": '', "multiline": False}),
+                        # "path": ("STRING", {"default": '', "multiline": False}),
                         "extension": (['png', 'jpeg', 'tiff', 'gif'], ),
                         "quality": ("INT", {"default": 100, "min": 1, "max": 100, "step": 1}),
                     },
